@@ -1,2 +1,2 @@
-click
-python-unsplash
+click==6.7
+python-unsplash==1.0.0a2
