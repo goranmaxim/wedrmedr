@@ -31,3 +31,11 @@ or check out the git version:
 Now, compile and install feh:
 `make`
 `sudo make install`
+
+## Build
+
+`docker build -t wedrmedr:latest .`
+
+## Run
+
+`docker run -d wedrmedr:latest`
