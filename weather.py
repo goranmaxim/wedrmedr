@@ -3,6 +3,12 @@ import json
 
 
 def get_conditions():
+    '''
+Returns:
+    Set of (unique) weather conditions in area around coordinates.
+Example:
+    clouds, haze, heavy snow
+    '''
     api = pyowm.OWM('0d24b5f810c4a57bb781502ca90d6d1a')
 
     latitude = float('41.9973')
