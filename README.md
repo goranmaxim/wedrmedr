@@ -20,14 +20,14 @@ First, install the dependencies:
 apt-get install libcurl4-openssl-dev libx11-dev libxt-dev libimlib2-dev libxinerama-dev libjpeg-progs
 
 Then, either get the latest tarball:
-wget http://feh.finalrewind.org/feh-2.25.1.tar.bz2
-tar -xjf feh-2.25.1.tar.bz2
-cd feh-2.25.1
+`wget http://feh.finalrewind.org/feh-2.25.1.tar.bz2`
+`tar -xjf feh-2.25.1.tar.bz2`
+`cd feh-2.25.1`
 
 or check out the git version:
-git clone git://git.finalrewind.org/feh || git clone git://github.com/derf/feh.git
-cd feh
+`git clone git://git.finalrewind.org/feh || git clone git://github.com/derf/feh.git`
+`cd feh`
 
 Now, compile and install feh:
-make
-sudo make install
+`make`
+`sudo make install`
