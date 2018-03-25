@@ -1,3 +1,5 @@
 click==6.7
-python-unsplash==1.0.0a2
 pyowm==2.8.0
+requests==2.18.4
+gunicorn==19.7.1
+falcon==1.4.1
