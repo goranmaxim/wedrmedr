@@ -21,4 +21,4 @@ Example:
         locations.append(json.loads(place.to_JSON()))
 
     weather_conds = set([w['Weather']['status'] for w in locations])
-    return weather_conds
+    return weather_conds if any(weather_conds) else 'thunderstorm'
